@@ -142,6 +142,10 @@ em.fig{font-style:normal;font-family:var(--mono);font-variant-numeric:tabular-nu
 .review-grid{display:grid;grid-template-columns:1fr 1fr 1fr;gap:40px}
 .review-grid ul{list-style:none;padding:0;margin:14px 0 0;display:flex;flex-direction:column;gap:0}
 .review-grid li{padding:10px 0;border-top:1px solid rgba(255,255,255,.12);font-size:16px;line-height:1.45}
+.review .subhead{font-family:var(--serif);font-weight:700;font-size:clamp(20px,2.2vw,24px);line-height:1.3;letter-spacing:-.01em;color:#9DB9FA}
+.review .paid-note{font-size:15px;color:#C9D5F2;border-left:3px solid #8FB0FA;padding-left:14px;max-width:62ch}
+.review-grid h3{font-size:17px}
+.review-grid .intro{margin-top:10px;font-size:15px;line-height:1.5;color:#AFC0E6}
 .review-grid .note{margin-top:16px;font-size:14.5px;color:#93A6D4;font-style:italic}
 @media (max-width:900px){.review-grid{grid-template-columns:1fr}}
 .deliverable{margin-top:64px;display:grid;grid-template-columns:.9fr 1.1fr;gap:56px;align-items:center}
